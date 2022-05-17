@@ -24,13 +24,17 @@ else:
     print("Esse valor é negativo")
 
 ############## EXERCICIO 3 ##################################################
-# 3 Crie um programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
+# 3 Crie um programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, T - Transgênero, NOT - Prefiro não dizer.
 print('Exercicio3')
-sexo = input('Digite a primeira letra referente ao seu sexo: M ou F ')
+sexo = input('Digite a primeira letra referente ao seu sexo: M, F, T ou NOT:  ')
 
-if sexo == 'M':
+if sexo == 'M' or sexo == 'm':
     print('Masculino')
-elif sexo == 'F':
+elif sexo == 'F' or sexo == 'f':
     print('Feminino')
+elif sexo == 'T' or sexo == 't':
+    print('Transgênero')
+elif sexo == 'NOT' or sexo == 'not':
+    print('Prefiro não dizer')
 else:
-    print('Error')
+    print('Digite um das alternativas (F, M, T ou NOT')
