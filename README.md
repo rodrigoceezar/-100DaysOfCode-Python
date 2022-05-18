@@ -1,6 +1,6 @@
 # _Práticando python - #100daysofcode_
 
-## Day 1 - alguns exercicios com python para começar o chanllenge.
+## _Day 1_ - alguns exercicios com python para começar o chanllenge.
 
 ###### Data: 15/05/2022
 
@@ -14,7 +14,7 @@
 
 #### _Exercicio 3_: Crie um programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo # Inválido.
 
-## Day 2 - estudando os principios básicos do python
+## _Day 2_ - estudando os principios básicos do python
 
 ###### Data: 16/05/2022
 
@@ -35,3 +35,35 @@
 #### Interação com o usuário
 
 #### Comando FORMAT
+
+## _Day 2_ - condicionais IF, IF ELSE e ELIF
+
+###### Data: 16/05/2022
+
+---
+
+---
+
+#### Relembrando as condicionais
+
+###### Comparadores
+
+#### \* == : igual
+
+#### \* != : diferente
+
+#### \* > : maior que (>= maior ou igual)
+
+#### \* < : menor que (<= menor ou igual)
+
+#### \* in: texto dentro de outro texto
+
+#### \* not: verifica o contrário da comparação
+
+#### \* pass: para n fazer nada
+
+#### Uso do IF e ELSE
+
+#### Uso do IF e IF
+
+#### Uso do ELIF
